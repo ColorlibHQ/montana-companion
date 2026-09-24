@@ -319,7 +319,7 @@ if ( !class_exists( 'Montana_El_Widgets' ) ) {
             // map active js
             // wp_register_script( 'montana-map-active', plugins_url( 'assets/js/map-active.js', __FILE__ ), array('jquery'), '1.0', true );
             // montana companion main js
-            wp_enqueue_script( 'montana-companion', plugins_url( 'assets/js/montana-companion-main.js', __FILE__ ), array('jquery'), '1.0-s1', true );
+            wp_enqueue_script( 'montana-companion', plugins_url( 'assets/js/montana-companion-main.js', __FILE__ ), array( 'montana-ui-js' ), '1.0-s2', true );
 
 
         }
