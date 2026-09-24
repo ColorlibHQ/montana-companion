@@ -182,7 +182,7 @@ class Montana_Video_Section extends Widget_Base {
             <span><?php echo esc_html( $sub_title )?></span>
             <h3><?php echo wp_kses_post( nl2br($sec_title) )?> </h3>
             <a href="<?php echo esc_url( $video_url )?>" class="video_btn popup-video">
-                <i class="fa fa-play"></i>
+                <i class="fa-solid fa-play"></i>
             </a>
         </div>
     </div>
